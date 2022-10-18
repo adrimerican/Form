@@ -1,0 +1,48 @@
+html {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #274471;
+   
+}
+
+.container {
+    width: 400px;
+    background-color: rgb(243,243,243);
+    border-radius: 6px;
+    display: flex;
+    margin: 30px 0;
+    justify-content: center;
+}
+
+#contactForm {
+    padding: 25px;
+
+}
+
+input {
+    width: 90%;
+    padding: 10px 16px;
+    margin: 8px 0;
+    border: none;
+}
+
+textarea {
+    border: none;
+}
+
+label {
+    text-align: left;
+    width: 90%;
+    margin-top: 10px;
+}
+
+.button {
+    background-color: #1ac0f3;
+    width: 100%;
+    border: 0;
+    border-radius:5px;
+    color: aliceblue;
+}
+
+.button:hover {
+    background-color: #03a7da;
+}
